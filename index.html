@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Loja Happig</title>
 
-        
-        <link rel="stylesheet" href="style-home.css"> 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Loja Happig</title>
 
-    <body>
-        <header>
-            <h1 class="titulo-principal">Loja Happig</h1>
-        </header>
-        <img id="banner" src="banner.png">
-        <div class="principal">
-            <h2 class="titulo-centralizado">Sobre a Happig</h2> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
 
-            <p>Localizada próximo ao Bauru Shopping, a <strong>Loja Happig</strong> traz para o mercado o que há de melhor para pessoas veganas, ovolactovegetarianas, intolerantes a produtos de origem animal ou apenas curiosas. Fundada em 2014, a Happig já é destaque na cidade de Bauru e, com sua loja online, conquista novos clientes pelo Brasil todo a cada dia.</p>
-        
-            <p id="missao"><em>Nossa missão é: <strong>"Fornecer produtos veganos de qualidade aos nossos clientes"</strong>.</em></p>
-        
-            <p>Oferecemos produtos alimentícios, bebidas, higiene pessoal, produtos sem glúten, entre outros. Nosso atendimento é excelente e nós conhecemos nossos clientes como ninguém, garantindo qualidade e satisfação nas compras.</p>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logo.png" style="width: 30%;"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <div class="beneficios">
-            <h3 class="titulo-centralizado">Benefícios</h3>
+    <img class="banner" src="banner2.png">
+
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre a Happig</h2>
+
+            <img class="imagem-porta" src="sobre.png" alt="Duas mulheres, donas da loja, posam alegres na frente da porta da Happig">
+
+            <p>Localizada próximo ao Bauru Shopping, a <strong>Loja Happig</strong> traz para o mercado o que há de
+                melhor para pessoas veganas, ovolactovegetarianas, intolerantes a produtos de origem animal ou apenas
+                curiosas. Fundada em 2014, a Happig já é destaque na cidade de Bauru e, com sua loja online, conquista
+                novos clientes pelo Brasil todo a cada dia.</p>
+
+            <p id="missao"><em>Nossa missão é: <strong>"Fornecer produtos veganos de qualidade aos nossos
+                        clientes"</strong>.</em></p>
+
+            <p>Oferecemos produtos alimentícios, bebidas, higiene pessoal, produtos sem glúten, entre outros. Nosso
+                atendimento é excelente e nós conhecemos nossos clientes como ninguém, garantindo qualidade e satisfação
+                nas compras.</p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nossa localização</h3>
+            <p>Ficamos pertinho do Bauru Shopping!</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.3654402674215!2d-49.054155517363334!3d-22.339826229307953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf673f63e45afd%3A0x5bdf59ea7ab51c54!2sHappig%20Vegan!5e0!3m2!1spt-BR!2sbr!4v1672437208076!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="beneficios">
+            <h3 class="titulo-principal">Benefícios</h3>
 
             <ul>
                 <li class="itens">Atendimento ao cliente</li>
@@ -32,7 +62,14 @@
                 <li class="itens">Loja físíca em Bauru</li>
                 <li class="itens">Produtos de qualidade</li>
             </ul>
-            <img src="loja.png" class="imagembeneficios">
-        </div>
-    </body>    
+            <img src="beneficios.png" class="imagem-loja-cheia" alt="Loja Happig cheia de clientes">
+        </section>
+    </main>
+
+    <footer>
+        <img src="bg.png" style="width: 10%;">
+        <p class="copyright">&copy; Copyright Loja Happig - 2022</p>
+    </footer>
+</body>
+
 </html>
