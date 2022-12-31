@@ -7,6 +7,10 @@ header {
     padding: 20px 0;
 }
 
+.main-contato {
+    margin-left: 5px;
+}
+
 .caixa {
     position: relative;
     width: 940px;
@@ -254,3 +258,31 @@ td, th {
     margin: 0 0 1em;
 }
 
+@media screen and (max-width: 939px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .main-contato, body {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+
+    .produtos {
+        width: auto;
+    }
+
+    .produtos li {   
+        width: auto;     
+        display: block;
+        margin: 10px 10px;
+    }
+}
