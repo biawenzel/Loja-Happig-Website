@@ -168,6 +168,7 @@ td, th {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    margin-top: 15px;
     clear: left;
 }
 
@@ -189,10 +190,6 @@ td, th {
     margin: 0 20px 20px 0;
 }
 
-.imagem-loja-cheia {
-    width: 60%;
-}
-
 .mapa {
     padding: 3em 0;
 }
@@ -202,4 +199,38 @@ td, th {
     text-align: center;
 }
 
-m
+.beneficios {
+    padding: 3em 0;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+.video p {
+    margin: 0 0 1em;
+}
